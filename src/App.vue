@@ -10,6 +10,8 @@ const userStore = useUserStore()
 </script>
 
 <template>
+  <router-view></router-view>
+  <hr />
   <div>app</div>
   <el-button @click="$router.push('/home')">1</el-button>
   <el-button @click="go">2</el-button>
