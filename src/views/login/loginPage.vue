@@ -5,7 +5,7 @@ import { userLoginService, userRegisterService } from '@/api/user'
 import { ElMessage } from 'element-plus'
 import { useUserStore } from '@/stores'
 import { useRouter } from 'vue-router'
-const isRegister = ref(true)
+const isRegister = ref(false)
 const formModel = ref({
   username: '',
   password: '',
